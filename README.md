@@ -26,7 +26,7 @@ Peer-to-peer rooftop solar trading
 
 India's grid buys rooftop surplus at roughly ₹3.00/kWh and resells it next door at ₹8.00. Volt clears the same trade near ₹5.50, so the value stays on the street. Every trade is sealed into a SHA-256 chain computed in the browser. Edit any past entry and that block, plus every block after it, fails verification.
 
-`78 of 251 commits`, 2 stars
+`78 of 251 commits`
 
 ### [Vault](https://github.com/abivan100-stack/vault)
 Vaccine cold chain ledger
@@ -35,7 +35,7 @@ Vaccine cold chain ledger
 
 A monitoring console for one vaccine shipment, from loading bay to handoff. A simulator drives the temperature feed, and the hash chain underneath it is real. Every event commits to `sequence + event + timestamp + detail + prevHash` under SHA-256, so the record verifies after the fact. The README draws the line precisely: verification proves that stored entries were never edited or reordered, and it says nothing about whether a reading was true. The exported PDF repeats that caveat on every page.
 
-`41 of 101 commits`, 1 star
+`41 of 101 commits`
 
 ### [CRASH](https://github.com/abivan100-stack/C.R.A.S.H)
 Road accident hotspot mapping
@@ -44,7 +44,7 @@ Road accident hotspot mapping
 
 Maps accidents across Greater Chennai, ranks the deadliest junctions by severity-weighted risk, and turns each hotspot into an intervention recommendation. The README publishes a correction with the measured numbers: fatal share is 6.2% at night against 6.3% by day, which retired an earlier claim about weather and visibility.
 
-`7 of 94 commits`, 2 stars
+`7 of 94 commits`
 
 ### [Apex GP](https://github.com/Raghav2012Code/f1-team-dashboard)
 F1 race strategy dashboard
@@ -64,7 +64,7 @@ Match outcome forecasting
 
 Calibrated Home/Draw/Away probabilities for the 2026/27 Premier League. A stacked ensemble of tuned Random Forest, XGBoost, logistic regression, and Elo-Poisson members, benchmarked with time-ordered validation, with production selected by Ranked Probability Score. The test suite asserts zero temporal leakage: no match sees a result from its own date or any later one, and odds frames are gated to pre-kickoff fields.
 
-`172 commits`, 1 star, MIT, [CI](https://github.com/Raghav2012Code/epl-predictor/actions)
+`172 commits`, MIT, [CI](https://github.com/Raghav2012Code/epl-predictor/actions)
 
 ### [Urbania](https://github.com/Raghav2012Code/urbania)
 2D city simulation
