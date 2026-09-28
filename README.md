@@ -8,16 +8,16 @@ I lead a two-person team, and I keep coming back to the same kind of problem: so
 
 ## Live builds
 
-Both are deployed and running the code in the repos below.
+All three are deployed and running the code in the repos below.
 
-| Volt | Apex GP |
-| :--- | :--- |
-| [![Volt rooftop solar ledger](docs/volt-ledger.png)](https://volt-ledger.vercel.app) | [![Apex GP Spa race desk](docs/apex-gp.png)](https://f1-team-dashboard.vercel.app) |
+| Volt | EPL Predictor | Apex GP |
+| :--- | :--- | :--- |
+| [![Volt rooftop solar ledger](docs/volt-ledger.png)](https://volt-ledger.vercel.app) | [![EPL Predictor match analysis](docs/epl-predictor.png)](https://epl-predictor-beta-roan.vercel.app) | [![Apex GP Spa race desk](docs/apex-gp.png)](https://f1-team-dashboard.vercel.app) |
 
 ## Competitions
 
 | Project | Event | Result |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | **CRASH** | ZRC Technoxian 2026 | **Top 5**, qualified for NRC (Delhi) |
 | **Volt** | Shark Tank Challenge 2026 | Participated |
 | **Vault** | PEC Hacks 4.0 | **Won** |
@@ -67,7 +67,7 @@ A live race desk for the Belgian Grand Prix: a moving 20-car field, tyre strateg
 ### [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor)
 Match outcome forecasting
 
-[![Live](https://img.shields.io/badge/live-epl--predictor.vercel.app-2ea44f)](https://epl-predictor-van-89de.vercel.app)
+[![Live](https://img.shields.io/badge/live-epl--predictor--beta--roan.vercel.app-2ea44f)](https://epl-predictor-beta-roan.vercel.app)
 [![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Fepl-predictor&color=8b949e)](https://github.com/Raghav2012Code/epl-predictor)
 
 Calibrated Home/Draw/Away probabilities for the 2026/27 Premier League. A stacked ensemble of tuned Random Forest, XGBoost, logistic regression, and Elo-Poisson members, benchmarked with time-ordered validation, with production selected by Ranked Probability Score. The test suite asserts zero temporal leakage: no match sees a result from its own date or any later one, and odds frames are gated to pre-kickoff fields.
