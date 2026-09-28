@@ -22,7 +22,7 @@ I lead these with one other developer. Every commit count below covers the compl
 Peer-to-peer rooftop solar trading
 
 [![Live](https://img.shields.io/badge/live-volt--ledger.vercel.app-2ea44f)](https://volt-ledger.vercel.app)
-[![Repo](https://img.shields.io/badge/repo-abivan100-stack/volt--ledger-8b949e)](https://github.com/abivan100-stack/volt-ledger)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=abivan100-stack%2Fvolt-ledger&color=8b949e)](https://github.com/abivan100-stack/volt-ledger)
 
 India's grid buys rooftop surplus at roughly ₹3.00/kWh and resells it next door at ₹8.00. Volt clears the same trade near ₹5.50, so the value stays on the street. Every trade is sealed into a SHA-256 chain computed in the browser. Edit any past entry and that block, plus every block after it, fails verification.
 
@@ -31,7 +31,7 @@ India's grid buys rooftop surplus at roughly ₹3.00/kWh and resells it next doo
 ### [Vault](https://github.com/abivan100-stack/vault)
 Vaccine cold chain ledger
 
-[![Repo](https://img.shields.io/badge/repo-abivan100-stack/vault-8b949e)](https://github.com/abivan100-stack/vault)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=abivan100-stack%2Fvault&color=8b949e)](https://github.com/abivan100-stack/vault)
 
 A monitoring console for one vaccine shipment, from loading bay to handoff. A simulator drives the temperature feed, and the hash chain underneath it is real. Every event commits to `sequence + event + timestamp + detail + prevHash` under SHA-256, so the record verifies after the fact. The README draws the line precisely: verification proves that stored entries were never edited or reordered, and it says nothing about whether a reading was true. The exported PDF repeats that caveat on every page.
 
@@ -40,7 +40,7 @@ A monitoring console for one vaccine shipment, from loading bay to handoff. A si
 ### [CRASH](https://github.com/abivan100-stack/C.R.A.S.H)
 Road accident hotspot mapping
 
-[![Repo](https://img.shields.io/badge/repo-abivan100-stack/C.R.A.S.H-8b949e)](https://github.com/abivan100-stack/C.R.A.S.H)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=abivan100-stack%2FC.R.A.S.H&color=8b949e)](https://github.com/abivan100-stack/C.R.A.S.H)
 
 Maps accidents across Greater Chennai, ranks the deadliest junctions by severity-weighted risk, and turns each hotspot into an intervention recommendation. The README publishes a correction with the measured numbers: fatal share is 6.2% at night against 6.3% by day, which retired an earlier claim about weather and visibility.
 
@@ -50,7 +50,7 @@ Maps accidents across Greater Chennai, ranks the deadliest junctions by severity
 F1 race strategy dashboard
 
 [![Live](https://img.shields.io/badge/live-f1--team--dashboard.vercel.app-2ea44f)](https://f1-team-dashboard.vercel.app)
-[![Repo](https://img.shields.io/badge/repo-Raghav2012Code/f1--team--dashboard-8b949e)](https://github.com/Raghav2012Code/f1-team-dashboard)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Ff1-team-dashboard&color=8b949e)](https://github.com/Raghav2012Code/f1-team-dashboard)
 
 A live race desk for the Belgian Grand Prix: a moving 20-car field, tyre strategy, race control, and analytics. Built with vanilla HTML, CSS, and JavaScript, so there is no build step. Circuit data drives the weather, dates, and lap badges, so switching to another Grand Prix moves the whole interface with it.
 
@@ -60,7 +60,7 @@ A live race desk for the Belgian Grand Prix: a moving 20-car field, tyre strateg
 Match outcome forecasting
 
 [![Live](https://img.shields.io/badge/live-epl--predictor.vercel.app-2ea44f)](https://epl-predictor-van-89de.vercel.app)
-[![Repo](https://img.shields.io/badge/repo-Raghav2012Code/epl--predictor-8b949e)](https://github.com/Raghav2012Code/epl-predictor)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Fepl-predictor&color=8b949e)](https://github.com/Raghav2012Code/epl-predictor)
 
 Calibrated Home/Draw/Away probabilities for the 2026/27 Premier League. A stacked ensemble of tuned Random Forest, XGBoost, logistic regression, and Elo-Poisson members, benchmarked with time-ordered validation, with production selected by Ranked Probability Score. The test suite asserts zero temporal leakage: no match sees a result from its own date or any later one, and odds frames are gated to pre-kickoff fields.
 
@@ -69,7 +69,7 @@ Calibrated Home/Draw/Away probabilities for the 2026/27 Premier League. A stacke
 ### [Urbania](https://github.com/Raghav2012Code/urbania)
 2D city simulation
 
-[![Repo](https://img.shields.io/badge/repo-Raghav2012Code/urbania-8b949e)](https://github.com/Raghav2012Code/urbania)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Furbania&color=8b949e)](https://github.com/Raghav2012Code/urbania)
 
 C++17 with raylib. A road network with A* pathfinding, citizen employment matching, pollution diffusion, land value, happiness, and a public transit foundation. The simulation clock advances independently of frame rate, so pause and fast-forward stay consistent across every system. The roadmap lists bus vehicle movement, transit ridership, trains, and save/load as still to come.
 
@@ -78,7 +78,7 @@ C++17 with raylib. A road network with A* pathfinding, citizen employment matchi
 ### [Diecastly](https://github.com/Raghav2012Code/diecastly)
 D2C inventory and point of sale
 
-[![Repo](https://img.shields.io/badge/repo-Raghav2012Code/diecastly-8b949e)](https://github.com/Raghav2012Code/diecastly)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Fdiecastly&color=8b949e)](https://github.com/Raghav2012Code/diecastly)
 
 Built for a small diecast collectibles business where most sales happen by hand, in cash or UPI, and only 10 to 15 percent need shipping. The database is the source of truth: stock, orders, and payments move only through `security definer` RPCs, and payment state is derived from an append-only ledger at read time. Guest order access requires both the order number and a 122-bit token, and phone or email carries no access.
 
