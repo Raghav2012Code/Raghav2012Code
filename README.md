@@ -14,9 +14,9 @@ Robotics and web in Chennai. ESP32 hardware, ML pipelines, deployed apps. I lead
 
 ## Live
 
-| Volt | EPL Predictor | Apex GP |
-| :--- | :--- | :--- |
-| [![Volt](docs/volt-ledger.png)](https://volt-ledger.vercel.app) | [![EPL Predictor](docs/epl-predictor.png)](https://epl-predictor-beta-roan.vercel.app) | [![Apex GP](docs/apex-gp.png)](https://f1-team-dashboard.vercel.app) |
+| Volt | EPL Predictor |
+| :--- | :--- |
+| [![Volt](docs/volt-ledger.png)](https://volt-ledger.vercel.app) | [![EPL Predictor](docs/epl-predictor.png)](https://epl-predictor-beta-roan.vercel.app) |
 
 ## Projects
 
