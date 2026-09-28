@@ -17,7 +17,7 @@ All three are deployed and running the code in the repos below.
 ## Competitions
 
 | Project | Event | Result |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **CRASH** | ZRC Technoxian 2026 | **Top 5**, qualified for NRC (Delhi) |
 | **Volt** | Shark Tank Challenge 2026 | Participated |
 | **Vault** | PEC Hacks 4.0 | **Won** |
