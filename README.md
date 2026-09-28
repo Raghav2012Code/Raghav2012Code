@@ -46,6 +46,14 @@ Maps accidents across Greater Chennai, ranks the deadliest junctions by severity
 
 [![commits](https://img.shields.io/github/commit-activity/y/abivan100-stack/C.R.A.S.H?style=flat&label=commits&color=8b949e)]
 
+### [Apex GP](https://github.com/Raghav2012Code/f1-team-dashboard)
+F1 race strategy dashboard
+
+[![Live](https://img.shields.io/badge/live-f1--team--dashboard.vercel.app-2ea44f)](https://f1-team-dashboard.vercel.app)
+[![Repo](https://img.shields.io/static/v1?label=repo&message=Raghav2012Code%2Ff1-team-dashboard&color=8b949e)](https://github.com/Raghav2012Code/f1-team-dashboard)
+
+A live race desk for the Belgian Grand Prix: a moving 20-car field, tyre strategy, race control, and analytics. Built with vanilla HTML, CSS, and JavaScript, so there is no build step. Circuit data drives the weather, dates, and lap badges, so switching to another Grand Prix moves the whole interface with it.
+
 ## Solo projects
 
 ### [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor)
