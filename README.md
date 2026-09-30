@@ -39,8 +39,4 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 <a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/raghavgamerz670%40gmail.com-2d333b?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
 
-- Building **Nimbus IoT**, an IoT weather station, for Technoviz
-- Based in Chennai, India (IST, UTC+5:30)
-- Won **Robowunder International Robotics Championship 2026** with HingeGuard
-
-<p align="right"><sub>🌳 grown from my commit history with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></p>
+<img src="https://flagcdn.com/w40/in.png" width="22" alt="India"> <a href="https://www.timeanddate.com/worldclock/india/chennai"><img src="https://img.shields.io/badge/Chennai%2C%20India-IST%20UTC%2B5%3A30-2d333b?style=flat&logo=googlemaps&logoColor=white" alt="Chennai, India — IST UTC+5:30"></a>
