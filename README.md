@@ -20,10 +20,6 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 | [**Volt**](https://github.com/abivan100-stack/volt-ledger) | Shark Tank Challenge 2026 | Participated |
 | **Nimbus IoT** | Technoviz | Participated |
 
-<p align="center">
-  <img src="output/bonsai.gif" width="512" alt="a pixel-art bonsai grown from my commit history" />
-</p>
-
 ## Projects
 
 | Project | What it does | Built |
@@ -35,6 +31,14 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Contact
 
+<table><tr><td valign="top">
+
 - <a href="https://github.com/Raghav2012Code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" width="17" height="17" alt="GitHub"></picture> @Raghav2012Code</a>
 - <a href="https://x.com/raghav7krishna"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><img src="https://cdn.simpleicons.org/x/000000" width="17" height="17" alt="X"></picture> @raghav7krishna</a>
 - <a href="mailto:raghavgamerz670@gmail.com"><picture><img src="https://cdn.simpleicons.org/gmail/EA4335" width="17" height="17" alt="Gmail"></picture> raghavgamerz670@gmail.com</a>
+
+</td><td valign="top" width="184">
+
+<img src="output/bonsai.gif" width="184" alt="a pixel-art bonsai grown from my commit history" />
+
+</td></tr></table>
