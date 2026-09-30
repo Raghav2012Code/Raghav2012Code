@@ -1,6 +1,6 @@
 # Raghav Krishna
 
-I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's three-person robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps.
+I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps.
 
 **[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
 
