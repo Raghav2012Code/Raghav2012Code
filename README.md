@@ -20,6 +20,10 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 | [**Volt**](https://github.com/abivan100-stack/volt-ledger) | Shark Tank Challenge 2026 | Participated |
 | **Nimbus IoT** | Technoviz | Participated |
 
+<p align="center">
+  <img src="output/bonsai.gif" width="512" alt="a pixel-art bonsai grown from my commit history" />
+</p>
+
 ## Projects
 
 | Project | What it does | Built |
@@ -28,10 +32,6 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 | [Vault](https://github.com/abivan100-stack/vault) | Vaccine cold chain ledger with verifiable entries | Aug 2026 |
 | [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | Jul 2026 |
 | [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | Sep 2026 |
-
-<p align="center">
-  <img src="output/bonsai.gif" width="256" alt="a pixel-art bonsai grown from my commit history" />
-</p>
 
 ## Contact
 
