@@ -40,14 +40,14 @@ jobs:
       - name: Verify the tree survived the crop
         run: |
           set -e
-          W=$(identify -format "%w" output/bonsai.gif)
-          H=$(identify -format "%h" output/bonsai.gif)
-          FR=$(identify -format "%n\n" output/bonsai.gif | head -1)
-          # mean opacity of the whole animation: a blank crop is ~0
-          MEAN=$(convert output/bonsai.gif -coalesce -alpha extract -format "%[fx:mean]" info:)
+          # read metadata from frame 0 only: identify repeats %w/%h for every frame
+          W=$(identify -format "%w" "output/bonsai.gif[0]")
+          H=$(identify -format "%h" "output/bonsai.gif[0]")
+          FR=$(identify output/bonsai.gif | wc -l)
+          MEAN=$(convert "output/bonsai.gif[0]" -alpha extract -format "%[fx:mean]" info:)
           echo "tree: ${W}x${H}  frames=${FR}  mean-opacity=${MEAN}"
           test "$W" -lt 256 || { echo "TRIM DID NOT SHRINK"; exit 1; }
-          test "$FR" -gt 1   || { echo "ANIMATION LOST"; exit 1; }
+          test "$FR" -gt 1  || { echo "ANIMATION LOST"; exit 1; }
           awk -v m="$MEAN" 'BEGIN{ if (m+0 < 0.05) { print "CROP IS BLANK - tree missing"; exit 1 } }'
 
       - name: Commit
