@@ -16,7 +16,7 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 | :--- | :--- | :--- |
 | RIRC 2026 | **HingeGuard** | **Won** |
 | PEC Hacks 4.0 | [**Vault**](https://github.com/abivan100-stack/vault) | **Won** |
-| ZRC Technoxian 2026 | [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H) | **Top 5**, qualified for NRC (Delhi) |
+| ZRC Technoxian 2026 | [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H) | **Top 5**, qualified for NRC (Noida) |
 | Shark Tank Challenge 2026 | [**Volt**](https://github.com/abivan100-stack/volt-ledger) | Participated |
 
 ## Projects
