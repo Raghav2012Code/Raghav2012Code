@@ -1,4 +1,4 @@
-﻿# Raghav Krishna
+# Raghav Krishna
 
 ![Daily Badge](https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,space&seed=Raghav2012Code&style=flat&color=8b949e)
 
@@ -38,3 +38,9 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 <a href="https://x.com/raghav7krishna"><img src="https://img.shields.io/badge/raghav7krishna-2d333b?style=flat&logo=x&logoColor=white" alt="X"></a>
 
 <a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/raghavgamerz670%40gmail.com-2d333b?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
+
+- Building **Nimbus IoT**, an IoT weather station, for Technoviz
+- Based in Chennai, India (IST, UTC+5:30)
+- Won **Robowunder International Robotics Championship 2026** with HingeGuard
+
+<p align="right"><sub>🌳 grown from my commit history with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></p>
