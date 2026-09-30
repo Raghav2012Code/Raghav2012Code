@@ -39,3 +39,5 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 <a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/raghavgamerz670%40gmail.com-2d333b?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
 
 <a href="https://www.timeanddate.com/worldclock/india/chennai"><img src="https://img.shields.io/badge/Chennai%2C%20India-IST%20UTC%2B5%3A30-2d333b?style=flat&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABQAAAANBAMAAABbflNtAAAAMFBMVEUEajj%2FaCD%2F%2F%2F%2F%2FzbWrzbx7esOtrNmszr2iw7rt7fdqarqqjKx6jLGMi8vzw7O7u989J5ASAAAANElEQVQI12MQhAMGgkxjIHi9D0QyKAFB2FcQCWJqZi2bBGUqxV4Fi5a4uLj0nAAS7gwkAAAq3xDF9V307AAAAABJRU5ErkJggg%3D%3D" alt="Chennai, India, IST UTC+5:30"></a>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raghav2012Code&theme=transparent&hide_border=true&hide_title=true&show_icons=false&hide=prs,issues,contribs)
