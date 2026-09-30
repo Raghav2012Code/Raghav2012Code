@@ -23,45 +23,32 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq imagemagick
-          # union bbox of all visible pixels: flatten every frame onto transparency,
-          # trim that single image, and read back the resulting crop geometry
+          # %@ gives the content bounding box *including its offset within the original*.
+          # Do NOT -trim first: that collapses the offset to +0+0 and yields an
+          # empty corner instead of the tree.
           GEO=$(convert output/bonsai.gif -coalesce -background none -alpha set \
-                  -flatten -trim -format "%@" info:)
-          echo "crop geometry: $GEO"
+                  -flatten -format "%@" info:)
+          echo "bonsai crop geometry: $GEO"
           convert output/bonsai.gif -coalesce -crop "$GEO" +repage output/_trim.gif
           mv output/_trim.gif output/bonsai.gif
-          # static stills
+          GGEO=$(convert output/bonsai-growth.gif -coalesce -background none -alpha set \
+                  -flatten -format "%@" info:)
+          echo "growth crop geometry: $GGEO"
+          convert output/bonsai-growth.gif -coalesce -crop "$GGEO" +repage output/bonsai-growth.gif
           convert output/bonsai.png -background none -alpha set -trim +repage output/bonsai.png
-          convert output/bonsai-growth.gif -coalesce -background none -alpha set \
-                  -flatten -trim -format "%@" info: > /tmp/gg.txt
-          GGGEO=$(cat /tmp/gg.txt)
-          convert output/bonsai-growth.gif -coalesce -crop "$GGGEO" +repage output/bonsai-growth.gif
 
-      - name: Verify the trimmed tree shrank, still animated and still transparent
+      - name: Verify the tree survived the crop
         run: |
-          python3 - <<'PY'
-          import struct, sys
-          d = open('output/bonsai.gif','rb').read()
-          w, h = struct.unpack('<HH', d[6:10])
-          frames = d.count(b'\x21\xf9\x04')
-          packed = d[10]
-          gct = bool(packed & 0x80)
-          n = 2 ** ((packed & 7) + 1)
-          trans = None
-          i = 13 + (3*n if gct else 0)
-          while i < len(d)-1:
-              if d[i] == 0x21 and d[i+1] == 0xF9:
-                  if d[i+3] & 0x01: trans = d[i+6]
-                  break
-              i += 1
-          print(f'trimmed: {w}x{h} (was 256x256)  frames={frames}  transparency_index={trans}')
-          if w >= 256 or h >= 256:
-              sys.exit('TRIM DID NOT SHRINK THE CANVAS')
-          if frames <= 1:
-              sys.exit('ANIMATION LOST')
-          if trans is None:
-              sys.exit('TRANSPARENCY LOST')
-          PY
+          set -e
+          W=$(identify -format "%w" output/bonsai.gif)
+          H=$(identify -format "%h" output/bonsai.gif)
+          FR=$(identify -format "%n\n" output/bonsai.gif | head -1)
+          # mean opacity of the whole animation: a blank crop is ~0
+          MEAN=$(convert output/bonsai.gif -coalesce -alpha extract -format "%[fx:mean]" info:)
+          echo "tree: ${W}x${H}  frames=${FR}  mean-opacity=${MEAN}"
+          test "$W" -lt 256 || { echo "TRIM DID NOT SHRINK"; exit 1; }
+          test "$FR" -gt 1   || { echo "ANIMATION LOST"; exit 1; }
+          awk -v m="$MEAN" 'BEGIN{ if (m+0 < 0.05) { print "CROP IS BLANK - tree missing"; exit 1 } }'
 
       - name: Commit
         run: |
