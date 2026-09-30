@@ -4,6 +4,10 @@ Robotics and web in Chennai. ESP32 hardware, ML pipelines, deployed apps. I lead
 
 **[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
 
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat&logo=css&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat&logo=arduino&logoColor=black) ![Embedded C](https://img.shields.io/badge/Embedded%20C-A8B9CC?style=flat&logo=c&logoColor=black)
+
 ## Competitions
 
 | Project | Event | Result |
