@@ -23,17 +23,24 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq imagemagick
-          # union bounding box across every frame, so the crop is stable and animated
-          convert output/bonsai.gif -coalesce -layers trim-bounds +repage output/_trim.gif
+          # union bbox of all visible pixels: flatten every frame onto transparency,
+          # trim that single image, and read back the resulting crop geometry
+          GEO=$(convert output/bonsai.gif -coalesce -background none -alpha set \
+                  -flatten -trim -format "%@" info:)
+          echo "crop geometry: $GEO"
+          convert output/bonsai.gif -coalesce -crop "$GEO" +repage output/_trim.gif
           mv output/_trim.gif output/bonsai.gif
           # static stills
-          convert output/bonsai.png -trim +repage output/bonsai.png
-          convert output/bonsai.gif -coalesce -layers trim-bounds +repage output/bonsai-growth.gif
+          convert output/bonsai.png -background none -alpha set -trim +repage output/bonsai.png
+          convert output/bonsai-growth.gif -coalesce -background none -alpha set \
+                  -flatten -trim -format "%@" info: > /tmp/gg.txt
+          GGGEO=$(cat /tmp/gg.txt)
+          convert output/bonsai-growth.gif -coalesce -crop "$GGGEO" +repage output/bonsai-growth.gif
 
-      - name: Verify the trimmed tree is still animated and transparent
+      - name: Verify the trimmed tree shrank, still animated and still transparent
         run: |
           python3 - <<'PY'
-          import struct
+          import struct, sys
           d = open('output/bonsai.gif','rb').read()
           w, h = struct.unpack('<HH', d[6:10])
           frames = d.count(b'\x21\xf9\x04')
@@ -47,9 +54,13 @@ jobs:
                   if d[i+3] & 0x01: trans = d[i+6]
                   break
               i += 1
-          print(f'trimmed: {w}x{h}  frames={frames}  transparency_index={trans}')
-          assert frames > 1, 'animation lost'
-          assert trans is not None, 'transparency lost'
+          print(f'trimmed: {w}x{h} (was 256x256)  frames={frames}  transparency_index={trans}')
+          if w >= 256 or h >= 256:
+              sys.exit('TRIM DID NOT SHRINK THE CANVAS')
+          if frames <= 1:
+              sys.exit('ANIMATION LOST')
+          if trans is None:
+              sys.exit('TRANSPARENCY LOST')
           PY
 
       - name: Commit
