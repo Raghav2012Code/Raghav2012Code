@@ -2,7 +2,7 @@
 
 ![Daily Badge](https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,space&seed=Raghav2012Code&style=flat&color=8b949e)
 
-I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps.
+I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps. In 2026 I won the Robowunder International Robotics Championship in Malaysia with HingeGuard, a door-hinge safety system.
 
 **[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
 
@@ -14,6 +14,7 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 | Project | Event | Result |
 | :--- | :--- | :--- |
+| **HingeGuard** | Robowunder International Robotics Championship 2026 (Malaysia) | **Won** |
 | [**Vault**](https://github.com/abivan100-stack/vault) | PEC Hacks 4.0 | **Won** |
 | [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H) | ZRC Technoxian 2026 | **Top 5**, qualified for NRC (Delhi) |
 | [**Volt**](https://github.com/abivan100-stack/volt-ledger) | Shark Tank Challenge 2026 | Participated |
