@@ -7,7 +7,7 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 **[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
 
 <div align="center">
-<img src="output/bonsai.gif" width="184" alt="a pixel-art bonsai grown from my commit history" /><picture><img src="output/spacer.png" width="44" height="1" alt="" /></picture><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raghav2012Code&layout=compact&langs_count=9&hide_border=true&bg_color=2d333b&title_color=fff&text_color=fff&card_width=365" width="365" alt="Most Used Languages" />
+<img src="output/bonsai.gif" width="184" alt="a pixel-art bonsai grown from my commit history" />
 </div>
 
 ## Stack
