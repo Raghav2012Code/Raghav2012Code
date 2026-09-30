@@ -15,6 +15,7 @@ Robotics and web in Chennai. ESP32 hardware, ML pipelines, deployed apps. I lead
 | **Vault** | PEC Hacks 4.0 | **Won** |
 | **CRASH** | ZRC Technoxian 2026 | **Top 5**, qualified for NRC (Delhi) |
 | **Volt** | Shark Tank Challenge 2026 | Participated |
+| **IoT weather station** (ESP32) | Technoviz | Participated |
 
 ## Projects
 
@@ -27,4 +28,4 @@ Robotics and web in Chennai. ESP32 hardware, ML pipelines, deployed apps. I lead
 
 ## Contact
 
-[@Raghav2012Code](https://github.com/Raghav2012Code), [raghavgamerz670@gmail.com](mailto:raghavgamerz670@gmail.com)
+[@Raghav2012Code](https://github.com/Raghav2012Code), [@raghav7krishna](https://x.com/raghav7krishna), [raghavgamerz670@gmail.com](mailto:raghavgamerz670@gmail.com)
