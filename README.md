@@ -12,12 +12,6 @@ Robotics and web in Chennai. ESP32 hardware, ML pipelines, deployed apps. I lead
 | **CRASH** | ZRC Technoxian 2026 | **Top 5**, qualified for NRC (Delhi) |
 | **Volt** | Shark Tank Challenge 2026 | Participated |
 
-## Live
-
-| Volt | EPL Predictor |
-| :--- | :--- |
-| [![Volt](docs/volt-ledger.png)](https://volt-ledger.vercel.app) | [![EPL Predictor](docs/epl-predictor.png)](https://epl-predictor-beta-roan.vercel.app) |
-
 ## Projects
 
 | Project | What it does | Commits |
