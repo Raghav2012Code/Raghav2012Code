@@ -26,6 +26,10 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 | [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | ![](https://img.shields.io/github/commit-activity/y/abivan100-stack/C.R.A.S.H?style=flat&label=&color=8b949e) |
 | [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | ![](https://img.shields.io/github/commit-activity/y/Raghav2012Code/epl-predictor?style=flat&label=&color=8b949e) |
 
+<p align="center">
+  <img src="output/bonsai.gif" width="256" alt="a pixel-art bonsai grown from my commit history" />
+</p>
+
 ## Contact
 
 [@Raghav2012Code](https://github.com/Raghav2012Code), [@raghav7krishna](https://x.com/raghav7krishna), [raghavgamerz670@gmail.com](mailto:raghavgamerz670@gmail.com)
