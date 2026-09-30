@@ -30,9 +30,10 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Contact
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raghav2012Code&layout=compact&langs_count=6&hide_border=true&bg_color=2d333b&title_color=fff&text_color=fff&card_width=380" width="380" align="right" alt="Most Used Languages" />
+<picture><img src="output/spacer.png" width="36" height="1" align="right" alt="" /></picture>
 <img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raghav2012Code&layout=compact&langs_count=6&hide_border=true&bg_color=2d333b&title_color=fff&text_color=fff" width="300" align="right" alt="Most Used Languages" />
+<picture><img src="output/spacer.png" width="36" height="1" align="right" alt="" /></picture>
 
 <a href="https://github.com/Raghav2012Code"><img src="https://img.shields.io/badge/Raghav2012Code-2d333b?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
 
