@@ -33,8 +33,8 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 <img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" />
 
-<h3><a href="https://github.com/Raghav2012Code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" width="32" height="32" alt="GitHub"></picture> @Raghav2012Code</a></h3>
+<a href="https://github.com/Raghav2012Code"><img src="https://img.shields.io/badge/Raghav2012Code-2d333b?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
 
-<h3><a href="https://x.com/raghav7krishna"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><img src="https://cdn.simpleicons.org/x/000000" width="32" height="32" alt="X"></picture> @raghav7krishna</a></h3>
+<a href="https://x.com/raghav7krishna"><img src="https://img.shields.io/badge/raghav7krishna-2d333b?style=flat&logo=x&logoColor=white" alt="X"></a>
 
-<h3><a href="mailto:raghavgamerz670@gmail.com"><picture><img src="https://cdn.simpleicons.org/gmail/EA4335" width="32" height="32" alt="Gmail"></picture> raghavgamerz670@gmail.com</a></h3>
+<a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/raghavgamerz670%40gmail.com-2d333b?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
