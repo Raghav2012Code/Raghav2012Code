@@ -34,4 +34,6 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Contact
 
-[@Raghav2012Code](https://github.com/Raghav2012Code), [@raghav7krishna](https://x.com/raghav7krishna), [raghavgamerz670@gmail.com](mailto:raghavgamerz670@gmail.com)
+- <a href="https://github.com/Raghav2012Code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" width="17" height="17" alt="GitHub"></picture> @Raghav2012Code</a>
+- <a href="https://x.com/raghav7krishna"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><img src="https://cdn.simpleicons.org/x/000000" width="17" height="17" alt="X"></picture> @raghav7krishna</a>
+- <a href="mailto:raghavgamerz670@gmail.com"><picture><img src="https://cdn.simpleicons.org/gmail/EA4335" width="17" height="17" alt="Gmail"></picture> raghavgamerz670@gmail.com</a>
