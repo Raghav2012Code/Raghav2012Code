@@ -22,12 +22,12 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Projects
 
-| Project | What it does | Commits |
+| Project | What it does | Built |
 | :--- | :--- | :--- |
-| [Volt](https://github.com/abivan100-stack/volt-ledger) | Peer-to-peer rooftop solar ledger, SHA-256 chained in the browser | ![](https://img.shields.io/github/commit-activity/y/abivan100-stack/volt-ledger?style=flat&label=&color=8b949e) |
-| [Vault](https://github.com/abivan100-stack/vault) | Vaccine cold chain ledger with verifiable entries | ![](https://img.shields.io/github/commit-activity/y/abivan100-stack/vault?style=flat&label=&color=8b949e) |
-| [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | ![](https://img.shields.io/github/commit-activity/y/abivan100-stack/C.R.A.S.H?style=flat&label=&color=8b949e) |
-| [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | ![](https://img.shields.io/github/commit-activity/y/Raghav2012Code/epl-predictor?style=flat&label=&color=8b949e) |
+| [Volt](https://github.com/abivan100-stack/volt-ledger) | Peer-to-peer rooftop solar ledger, SHA-256 chained in the browser | Jul 2026 |
+| [Vault](https://github.com/abivan100-stack/vault) | Vaccine cold chain ledger with verifiable entries | Aug 2026 |
+| [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | Jul 2026 |
+| [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | Sep 2026 |
 
 <p align="center">
   <img src="output/bonsai.gif" width="256" alt="a pixel-art bonsai grown from my commit history" />
