@@ -1,5 +1,7 @@
 # Raghav Krishna
 
+![Daily Badge](https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,space&seed=Raghav2012Code&style=flat&color=8b949e)
+
 I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps.
 
 **[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
