@@ -32,6 +32,8 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 <img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" />
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raghav2012Code&layout=compact&langs_count=6&theme=transparent&hide_border=true" width="300" align="right" alt="Most Used Languages" />
+
 <a href="https://github.com/Raghav2012Code"><img src="https://img.shields.io/badge/Raghav2012Code-2d333b?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
 
 <a href="https://x.com/raghav7krishna"><img src="https://img.shields.io/badge/raghav7krishna-2d333b?style=flat&logo=x&logoColor=white" alt="X"></a>
@@ -39,5 +41,3 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 <a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/raghavgamerz670%40gmail.com-2d333b?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
 
 <a href="https://www.timeanddate.com/worldclock/india/chennai"><img src="https://img.shields.io/badge/Chennai%2C%20India-IST%20UTC%2B5%3A30-2d333b?style=flat&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABQAAAANBAMAAABbflNtAAAAMFBMVEUEajj%2FaCD%2F%2F%2F%2F%2FzbWrzbx7esOtrNmszr2iw7rt7fdqarqqjKx6jLGMi8vzw7O7u989J5ASAAAANElEQVQI12MQhAMGgkxjIHi9D0QyKAFB2FcQCWJqZi2bBGUqxV4Fi5a4uLj0nAAS7gwkAAAq3xDF9V307AAAAABJRU5ErkJggg%3D%3D" alt="Chennai, India, IST UTC+5:30"></a>
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs?username=Raghav2012Code&layout=compact&langs_count=6&theme=transparent&hide_border=true)
