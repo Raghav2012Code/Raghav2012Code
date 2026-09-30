@@ -8,7 +8,7 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Stack
 
-<img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" />
+<picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" />
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat&logo=css&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat&logo=arduino&logoColor=black) ![Embedded C](https://img.shields.io/badge/Embedded%20C-A8B9CC?style=flat&logo=c&logoColor=black)
 
