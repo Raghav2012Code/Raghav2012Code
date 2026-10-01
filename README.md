@@ -4,7 +4,7 @@
 
 I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps. I pair with coding agents to ship faster, and I own everything that touches the hardware.
 
-**[raghavkrishna-dev.vercel.app](https://raghavkrishna-dev.vercel.app)**
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://raghavkrishna-dev.vercel.app)
 
 ## Stack
 
