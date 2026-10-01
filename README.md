@@ -8,13 +8,13 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Stack
 
-<div align="right"><sub>a tree of my commits, grown with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></div>
-
 <picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><picture><img src="output/bonsai.gif" height="218" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
 
 [![Arduino](https://img.shields.io/badge/Arduino-%2300979D.svg?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/) [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/) [![Supabase](https://img.shields.io/badge/Supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/) [![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) [![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c) [![Raylib](https://img.shields.io/badge/RAYLIB-%23FFFFFF.svg?style=for-the-badge&logo=raylib&logoColor=black)](https://www.raylib.com/) [![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)](https://www.w3.org/TR/CSS/) [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/) [![OpenCode](https://img.shields.io/badge/opencode-%23000000.svg?style=for-the-badge&logo=opencode&logoColor=ffffff)](https://opencode.ai/) [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/) [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
 
-<picture><img src="output/spacer.png" width="1" height="76" alt="" /></picture>
+<br clear="all" />
+
+<div align="right"><sub>a tree of my commits, grown with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></div>
 
 ## Competitions
 
