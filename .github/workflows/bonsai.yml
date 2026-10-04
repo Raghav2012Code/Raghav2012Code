@@ -51,6 +51,24 @@ jobs:
           convert output/bonsai-growth.gif -coalesce -crop "$GGEO" +repage output/bonsai-growth.gif
           convert output/bonsai.png -background none -alpha set -trim +repage output/bonsai.png
 
+          # Give the tree a constant rendered box. The README pins width="184", so a fixed
+          # canvas aspect => a fixed rendered height. git-bonsai's aspect varies with style
+          # (formal 92x109 tall vs slanted 118x96 wide), and when the tree is SHORTER than the
+          # badge grid the cleared caption lands under the grid instead of under the tree.
+          # Padding transparent sky ABOVE keeps the tree's base on the canvas bottom edge, so
+          # the caption sits directly under the tree at every width.
+          W=$(identify -format "%w" "output/bonsai.gif[0]")
+          H=$(identify -format "%h" "output/bonsai.gif[0]")
+          NEWH=$(awk -v w="$W" 'BEGIN{printf "%d", (w*260+91)/184}')   # target aspect 184:260
+          if [ "$NEWH" -gt "$H" ]; then
+            echo "padding canvas ${W}x${H} -> ${W}x${NEWH}"
+            convert output/bonsai.gif -coalesce -background none -gravity south \
+              -extent "${W}x${NEWH}" +repage output/_pad.gif
+            mv output/_pad.gif output/bonsai.gif
+          else
+            echo "canvas ${W}x${H} already at or above target height ${NEWH}"
+          fi
+
       - name: Verify the tree survived the crop
         id: verify
         run: |
