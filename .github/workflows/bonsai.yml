@@ -1,3 +1,10 @@
+# Reliability notes:
+#  - fetch-depth:0 + rebase-before-push + retry: main can move between checkout and
+#    push (profile edits, another run). Without the rebase the push is rejected and
+#    that day's re-grow is silently skipped.
+#  - concurrency group prevents a scheduled run overlapping a manual one.
+#  - the v1 build of the action does not expose its style/species outputs, so the
+#    commit message records the measured tree size instead.
 name: bonsai
 
 on:
