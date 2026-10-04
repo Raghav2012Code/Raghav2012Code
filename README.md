@@ -6,6 +6,8 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 ## Stack
 
+<div align="right"><sub>a tree of my commits, grown with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></div>
+
 <picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><!-- bonsai: pin WIDTH, never height. git-bonsai trees change aspect ratio with style
      (formal 92x109 tall vs slanted 118x96 wide); pinning height stretched the slanted
      tree to 288px and collapsed the badge grid to one badge per row.
@@ -18,7 +20,6 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 <br clear="all" />
 
 <a href="https://raghavkrishna-dev.vercel.app"><img src="https://img.shields.io/badge/View_Portfolio-14202B.svg?style=for-the-badge&logoColor=white" align="left" alt="View Portfolio" /></a>
-<div align="right"><sub>a tree of my commits, grown with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub></div>
 
 ## Competitions
 
