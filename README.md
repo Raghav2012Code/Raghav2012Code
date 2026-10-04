@@ -28,7 +28,7 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 | Project | What it does | Built |
 | :--- | :--- | :--- |
-| [Volt](https://github.com/abivan100-stack/volt-ledger) | Peer-to-peer rooftop solar ledger, SHA-256 chained in the browser | Aug 2026 |
+| [Volt](https://github.com/abivan100-stack/volt-ledger) | Peer-to-peer rooftop solar ledger, SHA-256 chained in the browser | Jul 2026 |
 | [Vault](https://github.com/abivan100-stack/vault) | Vaccine cold chain ledger with verifiable entries | Aug 2026 |
 | [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | Jul 2026 |
 | [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | Sep 2026 |
