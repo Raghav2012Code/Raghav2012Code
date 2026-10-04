@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the rebase-before-push always has a base
 
       - uses: egorthinks/git-bonsai@v1
         with:
