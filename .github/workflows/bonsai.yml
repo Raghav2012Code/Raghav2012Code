@@ -19,8 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - id: bonsai
-        uses: egorthinks/git-bonsai@v1
+      - uses: egorthinks/git-bonsai@v1
         with:
           user: Raghav2012Code
           commit: 'false'   # we commit below, after trimming
@@ -44,6 +43,7 @@ jobs:
           convert output/bonsai.png -background none -alpha set -trim +repage output/bonsai.png
 
       - name: Verify the tree survived the crop
+        id: verify
         run: |
           set -e
           # read metadata from frame 0 only: identify repeats %w/%h for every frame
@@ -55,30 +55,30 @@ jobs:
           test "$W" -lt 256 || { echo "TRIM DID NOT SHRINK"; exit 1; }
           test "$FR" -gt 1  || { echo "ANIMATION LOST"; exit 1; }
           awk -v m="$MEAN" 'BEGIN{ if (m+0 < 0.05) { print "CROP IS BLANK - tree missing"; exit 1 } }'
+          # the v1 build of the action does not expose its style/species outputs,
+          # so record the tree's measured size instead - that is the daily signal.
+          echo "tree=${W}x${H}" >> "$GITHUB_OUTPUT"
+          echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
 
-      - name: Report the tree's identity
+      - name: Summarise
         env:
-          STYLE: ${{ steps.bonsai.outputs.style }}
-          SPECIES: ${{ steps.bonsai.outputs.species }}
-          SIZE_CLASS: ${{ steps.bonsai.outputs.size-class }}
+          TREE: ${{ steps.verify.outputs.tree }}
+          FRAMES: ${{ steps.verify.outputs.frames }}
         run: |
-          echo "### bonsai today: ${STYLE:-?} / ${SPECIES:-?} / ${SIZE_CLASS:-?} pot" >> "$GITHUB_STEP_SUMMARY"
+          echo "### bonsai today: ${TREE} (${FRAMES} frames)" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit
         env:
-          STYLE: ${{ steps.bonsai.outputs.style }}
-          SPECIES: ${{ steps.bonsai.outputs.species }}
-          SIZE_CLASS: ${{ steps.bonsai.outputs.size-class }}
+          TREE: ${{ steps.verify.outputs.tree }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "tree unchanged today (${STYLE:-?} / ${SPECIES:-?} / ${SIZE_CLASS:-?}); nothing to commit"
+            echo "tree unchanged today (${TREE}); nothing to commit"
             exit 0
           fi
-          # record the tree's identity so each day's change is visible in history
-          git commit -m "chore: tend the bonsai — ${STYLE:-?} ${SPECIES:-?} ${SIZE_CLASS:-?} pot"
+          git commit -m "chore: tend the bonsai (${TREE})"
           # main can move between checkout and push (profile edits, another run),
           # which would reject the push and silently skip that day's re-grow.
           ok=0
