@@ -17,8 +17,6 @@ I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics
 
 <br clear="all" />
 
-<a href="https://raghavkrishna-dev.vercel.app"><img src="https://img.shields.io/badge/View_Portfolio-14202B.svg?style=for-the-badge&logoColor=white" alt="View Portfolio" /></a>
-
 ## Competitions
 
 | Event | Project | Result |
