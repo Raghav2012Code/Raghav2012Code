@@ -8,13 +8,19 @@ on:
 permissions:
   contents: write
 
+# never let a scheduled run overlap a manual one
+concurrency:
+  group: bonsai
+  cancel-in-progress: false
+
 jobs:
   grow:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: egorthinks/git-bonsai@v1
+      - id: bonsai
+        uses: egorthinks/git-bonsai@v1
         with:
           user: Raghav2012Code
           commit: 'false'   # we commit below, after trimming
@@ -50,10 +56,39 @@ jobs:
           test "$FR" -gt 1  || { echo "ANIMATION LOST"; exit 1; }
           awk -v m="$MEAN" 'BEGIN{ if (m+0 < 0.05) { print "CROP IS BLANK - tree missing"; exit 1 } }'
 
+      - name: Report the tree's identity
+        env:
+          STYLE: ${{ steps.bonsai.outputs.style }}
+          SPECIES: ${{ steps.bonsai.outputs.species }}
+          SIZE_CLASS: ${{ steps.bonsai.outputs.size-class }}
+        run: |
+          echo "### bonsai today: ${STYLE:-?} / ${SPECIES:-?} / ${SIZE_CLASS:-?} pot" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit
+        env:
+          STYLE: ${{ steps.bonsai.outputs.style }}
+          SPECIES: ${{ steps.bonsai.outputs.species }}
+          SIZE_CLASS: ${{ steps.bonsai.outputs.size-class }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: tend the bonsai" || exit 0
-          git push
+          if git diff --cached --quiet; then
+            echo "tree unchanged today (${STYLE:-?} / ${SPECIES:-?} / ${SIZE_CLASS:-?}); nothing to commit"
+            exit 0
+          fi
+          # record the tree's identity so each day's change is visible in history
+          git commit -m "chore: tend the bonsai — ${STYLE:-?} ${SPECIES:-?} ${SIZE_CLASS:-?} pot"
+          # main can move between checkout and push (profile edits, another run),
+          # which would reject the push and silently skip that day's re-grow.
+          ok=0
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" \
+               && git push origin "${GITHUB_REF_NAME}"; then
+              ok=1
+              break
+            fi
+            echo "push attempt ${attempt} failed; retrying in 5s"
+            sleep 5
+          done
+          test "$ok" = "1" || { echo "could not push after 3 attempts"; exit 1; }
