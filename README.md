@@ -24,10 +24,10 @@ const raghav = {
   pronouns: "he" | "him",
   code: ["TypeScript", "C++", "Python", "JavaScript", "C",
          "Three.js"],
-  tools: ["ESP32", "Arduino", "Supabase", "VSCodium"],
-  ai: ["OpenCode", "Codex", "Claude Code", "Ollama"],
+  hardware: ["ESP32", "Arduino", "Raspberry Pi"],
+  tools: ["Supabase", "VSCodium", "Blender"],
   system: ["Ubuntu", "Bash", "SSH", "Git"],
-  goal: "Three-person team, hardware that outlives the demo"
+  goal: "Three-person team, one goal: robots that earn their keep"
 };
 ```
 
