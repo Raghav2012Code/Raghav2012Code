@@ -17,22 +17,17 @@
 
 ---
 
-<picture>
-  <source media="(max-width: 1400px)" srcset="output/spacer.png">
-  <img align="right" src="output/bonsai-cell.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
-</picture>
-
 ### A little more about me...
 
 ```javascript
 const raghav = {
   pronouns: "he" | "him",
-  code: ["C", "C++", "TypeScript",
-         "Python", "JavaScript"],
+  code: ["TypeScript", "C++", "Python", "C"],
   tools: ["React", "Three.js", "ESP32", "Arduino",
-          "Supabase", "VSCodium", "Ollama"],
-  system: ["Windows 11", "PowerShell"],
-  challenge: "I re-grow a bonsai from my commits every day"
+          "Supabase", "VSCodium"],
+  ai: ["OpenCode", "Codex", "Claude Code", "Ollama"],
+  system: ["Ubuntu", "Bash", "VSCodium", "Git"],
+  challenge: "Three-person team, hardware that outlives the demo"
 };
 ```
 
