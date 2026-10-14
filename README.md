@@ -1,10 +1,10 @@
 <h2>Hi there, I'm Raghav</h2>
 <p><em>
-  Robotics team lead at my school
+  <b>Robotics team lead at my school</b>
   <br>
-  Winner — RIRC 2026 and PEC Hacks 4.0
+  Won RIRC 2026 and PEC Hacks 4.0
   <br>
-  Top 5 — ZRC Technoxian 2026 with CRASH
+  Top 5 at ZRC Technoxian 2026 with CRASH
   <br>
   Doing Class 9 in Chennai
 </em></p>
