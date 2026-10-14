@@ -6,6 +6,8 @@
   <br>
   Top 5 at ZRC Technoxian 2026 with CRASH
   <br>
+  Semifinalist at RFGYC 2026
+  <br>
   Doing Class 9 in Chennai
 </em></p>
 
