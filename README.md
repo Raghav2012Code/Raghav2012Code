@@ -1,4 +1,4 @@
-<h2>Hi there, I'm Raghav</h2>
+<h2>Hey there! I'm Raghav — welcome to my corner of GitHub</h2>
 <p><em>
   <b>Robotics team lead at my school</b>
   <br>
