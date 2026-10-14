@@ -27,7 +27,7 @@ const raghav = {
           "Supabase", "VSCodium"],
   ai: ["OpenCode", "Codex", "Claude Code", "Ollama"],
   system: ["Ubuntu", "Bash", "VSCodium", "Git"],
-  challenge: "Three-person team, hardware that outlives the demo"
+  goal: "Three-person team, hardware that outlives the demo"
 };
 ```
 
