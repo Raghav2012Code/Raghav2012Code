@@ -26,7 +26,7 @@ const raghav = {
   tools: ["React", "Three.js", "ESP32", "Arduino",
           "Supabase", "VSCodium"],
   ai: ["OpenCode", "Codex", "Claude Code", "Ollama"],
-  system: ["Ubuntu", "Bash", "VSCodium", "Git"],
+  system: ["Ubuntu", "Bash", "SSH", "Git"],
   goal: "Three-person team, hardware that outlives the demo"
 };
 ```
