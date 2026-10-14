@@ -15,9 +15,9 @@ flicker between frames), index 255 is reserved for transparency, and disposal=2
 restores the background each frame so the animation cannot smear.
 
 The tree is scaled by a whole number with nearest-neighbour so every art pixel
-stays square, centred horizontally, and bottom-anchored so the pot stands still
-while the foliage is regrown. The canvas is 2x its 168x150 layout size so the
-art stays sharp on high-DPI screens.
+stays square, centred horizontally, and bottom-anchored with a transparent
+margin below the pot. The canvas is 2x its 140x174 layout size so the art stays
+sharp on high-DPI screens.
 """
 import pathlib
 import sys
@@ -28,9 +28,9 @@ SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
 
 SCALE = 2
-W, H = 168 * SCALE, 150 * SCALE
-BASELINE = 127 * SCALE          # fixed baseline the pot stands on; keeps the framing identical every day
-BOX_W, BOX_H = 144 * SCALE, 117 * SCALE
+W, H = 140 * SCALE, 174 * SCALE     # hero canvas, 2x the 140x174 layout size
+SIDE, BOTTOM = 4 * SCALE, 6 * SCALE # transparent margins; the tree is bottom-anchored on the canvas
+BOX_W, BOX_H = W - 2 * SIDE, H - BOTTOM - 3 * SCALE   # 3px of headroom keeps the crown off the top edge
 PAPER = (255, 255, 255)
 TRANSPARENT_INDEX = 255
 
@@ -39,7 +39,7 @@ def cell_frame_rgba(tree, size):
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     t = tree.resize(size, Image.NEAREST)
     x = (W - size[0]) // 2
-    y = max(0, BASELINE - size[1])
+    y = H - BOTTOM - size[1]
     canvas.paste(t, (x, y), t)
     return canvas
 

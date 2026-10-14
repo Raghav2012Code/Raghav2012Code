@@ -11,15 +11,17 @@
 
 ---
 
-<img align="right" src="output/bonsai-cell.gif" width="336" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+<img align="right" src="output/bonsai-cell.gif" width="280" alt="Pixel-art bonsai grown from my commit history, regrown every day">
 
 ### A little more about me...
 
 ```javascript
 const raghav = {
   pronouns: "he" | "him",
-  code: ["C", "C++", "TypeScript", "Python", "JavaScript"],
-  tools: ["React", "Three.js", "ESP32", "Arduino", "Supabase", "VSCodium", "Ollama"],
+  code: ["C", "C++", "TypeScript",
+         "Python", "JavaScript"],
+  tools: ["React", "Three.js", "ESP32", "Arduino",
+          "Supabase", "VSCodium", "Ollama"],
   system: ["Windows 11", "VSCodium", "PowerShell"],
   challenge: "I re-grow a bonsai from my commits every day"
 };
