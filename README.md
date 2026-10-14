@@ -30,8 +30,8 @@ const raghav = {
   code: ["TypeScript", "C++", "Python", "JavaScript", "C",
          "Three.js"],
   hardware: ["ESP32", "Arduino", "Raspberry Pi", "KiCad"],
-  tools: ["Supabase", "VSCodium", "Blender", "Godot"],
-  system: ["Ubuntu", "Bash", "SSH", "Git"],
+  tools: ["VSCodium", "Supabase", "Blender", "Godot", "Git"],
+  system: ["Ubuntu", "Bash", "SSH"],
   goal: "Three-person team, one goal: robots that earn their keep"
 };
 ```
