@@ -24,8 +24,8 @@ const raghav = {
   pronouns: "he" | "him",
   code: ["TypeScript", "C++", "Python", "JavaScript", "C",
          "Three.js"],
-  hardware: ["ESP32", "Arduino", "Raspberry Pi"],
-  tools: ["Supabase", "VSCodium", "Blender"],
+  hardware: ["ESP32", "Arduino", "Raspberry Pi", "KiCad"],
+  tools: ["Supabase", "VSCodium", "Blender", "Godot"],
   system: ["Ubuntu", "Bash", "SSH", "Git"],
   goal: "Three-person team, one goal: robots that earn their keep"
 };
