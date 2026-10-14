@@ -1,17 +1,20 @@
 <h2>Hi there, I'm Raghav</h2>
 <p><em>
-  Robotics lead on my school's robotics team
+  Robotics team lead at my school
   <br>
   Winner — RIRC 2026 and PEC Hacks 4.0
   <br>
   Doing Class 9 in Chennai
 </em></p>
 
-![GitHub followers](https://img.shields.io/github/followers/Raghav2012Code?label=Followers&style=social) ![GitHub stars](https://img.shields.io/github/stars/Raghav2012Code/Raghav2012Code?label=Stars&style=social)
+![GitHub followers](https://img.shields.io/github/followers/Raghav2012Code?label=Followers&style=social)
 
 ---
 
-<img align="right" src="output/bonsai-cell.gif" width="280" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+<picture>
+  <source media="(max-width: 700px)" srcset="output/spacer.png">
+  <img align="right" src="output/bonsai-cell.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+</picture>
 
 ### A little more about me...
 
@@ -22,7 +25,7 @@ const raghav = {
          "Python", "JavaScript"],
   tools: ["React", "Three.js", "ESP32", "Arduino",
           "Supabase", "VSCodium", "Ollama"],
-  system: ["Windows 11", "VSCodium", "PowerShell"],
+  system: ["Windows 11", "PowerShell"],
   challenge: "I re-grow a bonsai from my commits every day"
 };
 ```
