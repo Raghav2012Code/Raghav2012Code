@@ -30,24 +30,3 @@ const raghav = {
 <em>I build robots and web things — if you want to build something together, say <b>hi</b>!</em>
 
 [Website](https://raghavkrishna-dev.vercel.app/), [X](https://x.com/raghav7krishna), [Instagram](https://instagram.com/raghav.krishna0505), [Discord](https://discord.com/users/980399356148609045), [Email](mailto:raghavgamerz670@gmail.com)
-
-<details>
-<summary>ASCII Art</summary>
-
-```
-,-.----.                           ,---,
-\    /  \                        ,--.' |
-;   :    \                       |  |  :
-|   | .\ :              ,----._,.:  :  :                   .---.
-.   : |: |   ,--.--.   /   /  ' /:  |  |,--.  ,--.--.    /.  ./|
-|   |  \ :  /       \ |   :     ||  :  '   | /       \ .-' . ' |
-|   : .  / .--.  .-. ||   | .\  .|  |   /' :.--.  .-. /___/ \: |
-;   | |  \  \__\/: . ..   ; ';  |'  :  | | | \__\/: . .   \  ' .
-|   | ;\  \ ," .--.; |'   .   . ||  |  ' | : ," .--.; |\   \   '
-:   ' | \.'/  /  ,.  | `---`-'| ||  :  :_:,'/  /  ,.  | \   \
-:   : :-' ;  :   .'   \.'__/\_: ||  | ,'   ;  :   .'   \ \   \ |
-|   |.'   |  ,     .-./|   :    :`--''     |  ,     .-./  '---"
-`---'      `--`---'     \   \  /            `--`---'
-                         `--`-'
-```
-</details>
