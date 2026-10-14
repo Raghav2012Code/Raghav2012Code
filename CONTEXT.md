@@ -17,7 +17,7 @@ The daily GitHub Action that grows the tree and refreshes the art it is drawn in
 _Avoid_: bot, cron job
 
 **Contact icons**:
-The five linked tiles under the connect line that carry the profile's contact destinations (website, X, Instagram, Discord, email).
+The five small linked brand icons under the connect line that carry the profile's contact destinations (website, X, Instagram, Discord, email).
 _Avoid_: social links, badges
 
 **Sheet**:

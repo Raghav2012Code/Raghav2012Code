@@ -29,4 +29,4 @@ const raghav = {
 
 <em>I build robots and web things — if you want to build something together, say <b>hi</b>!</em>
 
-[![Website](assets/contact/website.svg)](https://raghavkrishna-dev.vercel.app/) [![X](assets/contact/x.svg)](https://x.com/raghav7krishna) [![Instagram](assets/contact/instagram.svg)](https://instagram.com/raghav.krishna0505) [![Discord](assets/contact/discord.svg)](https://discord.com/users/980399356148609045) [![Email](assets/contact/email.svg)](mailto:raghavgamerz670@gmail.com)
+[![Website](assets/icons/website.svg)](https://raghavkrishna-dev.vercel.app/) [![X](assets/icons/x.svg)](https://x.com/raghav7krishna) [![Instagram](assets/icons/instagram.svg)](https://instagram.com/raghav.krishna0505) [![Discord](assets/icons/discord.svg)](https://discord.com/users/980399356148609045) [![Email](assets/icons/email.svg)](mailto:raghavgamerz670@gmail.com)
