@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Email">
+<style>@media (prefers-color-scheme: dark){rect[fill="#ffffff"],rect[fill="#fff"]{fill:#0d1117}[fill="#111111"]{fill:#f0f6fc}[fill="#6a6a6a"]{fill:#8b949e}[stroke="#111111"]{stroke:#30363d}}</style>
+<title>Email</title>
+<rect width="96" height="96" fill="#ffffff"/>
+<rect x="0.75" y="0.75" width="94.5" height="94.5" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="10" y="19" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#6a6a6a">Email</text>
+<g transform="translate(28 24) scale(1.66667)" fill="#111111">
+<path fill-rule="evenodd" d="M3.5 5h17a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm.55 1.5h15.9L12 12.1z"/>
+</g>
+<path d="M28 80H68" stroke="#e1251b" stroke-width="2"/>
+</svg>

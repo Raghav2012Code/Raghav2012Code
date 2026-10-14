@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="X">
+<style>@media (prefers-color-scheme: dark){rect[fill="#ffffff"],rect[fill="#fff"]{fill:#0d1117}[fill="#111111"]{fill:#f0f6fc}[fill="#6a6a6a"]{fill:#8b949e}[stroke="#111111"]{stroke:#30363d}}</style>
+<title>X</title>
+<rect width="96" height="96" fill="#ffffff"/>
+<rect x="0.75" y="0.75" width="94.5" height="94.5" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="10" y="19" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#6a6a6a">X</text>
+<g transform="translate(27.7 24) scale(0.0595)" fill="#111111">
+<path d="m11 0l268 360l-243 326h117l187-255h5l185 255h111l-240-325l268-361h-117l-212 289h-5l-211-289z"/>
+</g>
+<path d="M28 80H68" stroke="#e1251b" stroke-width="2"/>
+</svg>
