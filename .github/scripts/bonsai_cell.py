@@ -1,26 +1,23 @@
-"""Compose output/bonsai.gif into the README's bonsai side-build card: output/bonsai-cell.gif.
+"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-cell.gif.
 
-The README is a grid of panels with 1.5px ink borders, adaptive to GitHub light/dark
-via embedded prefers-color-scheme in the sheet SVGs. Under the side builds sits a
-card for this tree: "Side build · GitHub Actions / bonsai / Grown from my commits,
-regrown every day." (assets/sheet/bonsai-card.svg), and this image is the tree half
-of that card. It draws no lines of its own: the side-build cards above draw its top
-edge, the saas-lab demo cell beside it draws its right edge, the Toolchain panel
-draws its bottom edge, and it joins the card text on its left with no divider, so
-the text and the tree read as one card.
+The README (reference-style layout) floats this image right of its "A little
+more about me" code block, where it stands in for the pixel-art coder gif of the
+layout it follows. It was originally composed as the side-build cell of the
+sheet design, which now lives on the old-design branch; the composition is
+unchanged.
 
-The canvas is transparent rather than sheet-white, so the cell matches its
-neighbours in both GitHub light and dark modes. Transparency is decided by the
-tree's own alpha channel, never by colour-keying, so white blossoms or highlights
-in future trees can never punch holes. One palette is built from every frame
-composited on white (colours cannot shift or flicker between frames), index 255 is
-reserved for transparency, and disposal=2 restores the background each frame so the
-animation cannot smear.
+This image draws no lines of its own, and the canvas is transparent rather than
+sheet-white, so the art reads equally in GitHub light and dark modes.
+Transparency is decided by the tree's own alpha channel, never by colour-keying,
+so white blossoms or highlights in future trees can never punch holes. One
+palette is built from every frame composited on white (colours cannot shift or
+flicker between frames), index 255 is reserved for transparency, and disposal=2
+restores the background each frame so the animation cannot smear.
 
 The tree is scaled by a whole number with nearest-neighbour so every art pixel
-stays square, centred across the cell, and its pot stands on the card
-description's last baseline. The canvas is 2x the cell's 168x150 layout size so the
-tree stays sharp on high-DPI screens.
+stays square, centred horizontally, and bottom-anchored so the pot stands still
+while the foliage is regrown. The canvas is 2x its 168x150 layout size so the
+art stays sharp on high-DPI screens.
 """
 import pathlib
 import sys
@@ -32,7 +29,7 @@ OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif
 
 SCALE = 2
 W, H = 168 * SCALE, 150 * SCALE
-BASELINE = 127 * SCALE          # the card description's last baseline; the pot stands on it
+BASELINE = 127 * SCALE          # fixed baseline the pot stands on; keeps the framing identical every day
 BOX_W, BOX_H = 144 * SCALE, 117 * SCALE
 PAPER = (255, 255, 255)
 TRANSPARENT_INDEX = 255

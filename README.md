@@ -1,11 +1,51 @@
-<img src="assets/sheet/hero.svg" width="100%" align="top" alt="Raghav Krishna. Robotics lead, age 14, Class 9, Chennai, India. ESP32 hardware, ML pipelines and web apps." /><br />
-<a href="https://raghavkrishna-dev.vercel.app"><img src="assets/sheet/contact-portfolio.svg" width="66.667%" align="top" alt="Portfolio: raghavkrishna-dev.vercel.app" /></a><a href="https://x.com/raghav7krishna"><img src="assets/sheet/contact-x.svg" width="33.333%" align="top" alt="X: @raghav7krishna" /></a><br />
-<img src="assets/sheet/record.svg" width="100%" align="top" alt="Record. 2 wins: RIRC 2026 and PEC Hacks 4.0. Top 5 at ZRC Technoxian 2026 with CRASH. Qualified for NRC, Noida, with CRASH. Also Shark Tank Challenge 2026 with Volt." /><br />
-<img src="assets/sheet/projects.svg" width="100%" align="top" alt="Projects" /><br />
-<a href="https://github.com/abivan100-stack/vault"><img src="assets/sheet/project-vault.svg" width="100%" align="top" alt="Vault. Won PEC Hacks 4.0. Vaccine cold chain ledger with verifiable entries." /></a><br />
-<a href="https://github.com/abivan100-stack/C.R.A.S.H"><img src="assets/sheet/project-crash.svg" width="100%" align="top" alt="CRASH. Top 5 at ZRC Technoxian 2026. Ranks Chennai's deadliest junctions from 10,169 recorded incidents." /></a><br />
-<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/sheet/project-volt.svg" width="100%" align="top" alt="Volt. Shark Tank Challenge 2026. Peer-to-peer rooftop solar ledger." /></a><br />
-<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/sheet/project-epl.svg" width="100%" align="top" alt="EPL Predictor. Calibrated match forecasts from a stacked ensemble." /></a><br />
-<a href="https://github.com/Raghav2012Code/urbania"><img src="assets/sheet/side-urbania.svg" width="50%" align="top" alt="urbania. 2D top-down city simulator in C++ and raylib." /></a><a href="https://github.com/Raghav2012Code/saas-lab"><img src="assets/sheet/side-saas.svg" width="50%" align="top" alt="saas-lab. Interactive SaaS financial modelling tool." /></a><br />
-<a href="https://github.com/egorthinks/git-bonsai"><img src="assets/sheet/bonsai-card.svg" width="30%" align="top" alt="Side build: bonsai, a GitHub Action. Grown from my commits, regrown every day." /></a><a href="https://github.com/egorthinks/git-bonsai"><img src="output/bonsai-cell.gif" width="20%" align="top" alt="a pixel-art bonsai grown from my commit history" /></a><a href="https://saas-lab-ten.vercel.app"><img src="assets/sheet/run-saas.svg" width="50%" align="top" alt="Live demo of saas-lab: saas-lab-ten.vercel.app" /></a><br />
-<img src="assets/sheet/toolchain.svg" width="100%" align="top" alt="Tech stack. Embedded and 3D: ESP32, Arduino, C, C++, Raylib, Blender. Web: TypeScript, React, Three.js, HTML, Tailwind CSS, Vercel. Data and backend: Python, FastAPI, Supabase, MongoDB, Pandas, scikit-learn. Tools and AI: Git, Linux, Claude Code, OpenCode, DeepSeek, Ollama." />
+<h2>Hi there, I'm Raghav</h2>
+<p><em>
+  Robotics lead on my school's robotics team
+  <br>
+  Winner — RIRC 2026 and PEC Hacks 4.0
+  <br>
+  Doing Class 9 in Chennai
+</em></p>
+
+![GitHub followers](https://img.shields.io/github/followers/Raghav2012Code?label=Followers&style=social) ![GitHub stars](https://img.shields.io/github/stars/Raghav2012Code/Raghav2012Code?label=Stars&style=social)
+
+---
+
+<img align="right" src="output/bonsai-cell.gif" width="336" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+
+### A little more about me...
+
+```javascript
+const raghav = {
+  pronouns: "he" | "him",
+  code: ["C", "C++", "TypeScript", "Python", "JavaScript"],
+  tools: ["React", "Three.js", "ESP32", "Arduino", "Supabase", "VSCodium", "Ollama"],
+  system: ["Windows 11", "VSCodium", "PowerShell"],
+  challenge: "I re-grow a bonsai from my commits every day"
+};
+```
+
+<em>I build robots and web things — if you want to build something together, say <b>hi</b>!</em>
+
+[Website](https://raghavkrishna-dev.vercel.app/), [X](https://x.com/raghav7krishna), [Instagram](https://instagram.com/raghav.krishna0505), [Discord](https://discord.com/users/980399356148609045), [Email](mailto:raghavgamerz670@gmail.com)
+
+<details>
+<summary>ASCII Art</summary>
+
+```
+,-.----.                           ,---,
+\    /  \                        ,--.' |
+;   :    \                       |  |  :
+|   | .\ :              ,----._,.:  :  :                   .---.
+.   : |: |   ,--.--.   /   /  ' /:  |  |,--.  ,--.--.    /.  ./|
+|   |  \ :  /       \ |   :     ||  :  '   | /       \ .-' . ' |
+|   : .  / .--.  .-. ||   | .\  .|  |   /' :.--.  .-. /___/ \: |
+;   | |  \  \__\/: . ..   ; ';  |'  :  | | | \__\/: . .   \  ' .
+|   | ;\  \ ," .--.; |'   .   . ||  |  ' | : ," .--.; |\   \   '
+:   ' | \.'/  /  ,.  | `---`-'| ||  :  :_:,'/  /  ,.  | \   \
+:   : :-' ;  :   .'   \.'__/\_: ||  | ,'   ;  :   .'   \ \   \ |
+|   |.'   |  ,     .-./|   :    :`--''     |  ,     .-./  '---"
+`---'      `--`---'     \   \  /            `--`---'
+                         `--`-'
+```
+</details>
