@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Website">
 <title>Website</title>
 <rect width="48" height="48" rx="10" fill="#2F81F7"/>
-<g transform="translate(12 12)" fill="none" stroke="#FFFFFF" stroke-width="2">
-<circle cx="12" cy="12" r="9"/>
-<ellipse cx="12" cy="12" rx="4.5" ry="9"/>
-<line x1="3.2" y1="9" x2="20.8" y2="9"/>
-<line x1="3.2" y1="15" x2="20.8" y2="15"/>
+<g transform="translate(12 12)" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round">
+<circle cx="12" cy="12" r="9.2"/>
+<path d="M12 2.8a14.5 14.5 0 0 0 0 18.4 14.5 14.5 0 0 0 0-18.4"/>
+<path d="M2.8 12h18.4"/>
 </g>
 </svg>
