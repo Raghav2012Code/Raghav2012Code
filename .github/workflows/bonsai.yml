@@ -69,9 +69,9 @@ jobs:
           echo "tree=${W}x${H}" >> "$GITHUB_OUTPUT"
           echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
 
-      - name: Compose the README sheet cell
-        # the README shows the tree at the end of its Projects band (output/bonsai-cell.gif).
-        # Non-blocking: if this fails, today's tree is still committed and the cell keeps
+      - name: Compose the README bonsai art
+        # the README floats the tree beside its about section (output/bonsai-cell.gif).
+        # Non-blocking: if this fails, today's tree is still committed and the art keeps
         # yesterday's tree rather than losing the whole re-grow.
         continue-on-error: true
         run: |
