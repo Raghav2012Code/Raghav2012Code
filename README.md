@@ -2,13 +2,13 @@
 <p><em>
   <b>Robotics team lead at my school</b>
   <br>
+  <b>Doing Class 9 in Chennai</b>
+  <br>
   Won RIRC 2026 and PEC Hacks 4.0
   <br>
   Top 5 at ZRC Technoxian 2026 with CRASH
   <br>
   Semifinalist at RFGYC 2026
-  <br>
-  Doing Class 9 in Chennai
 </em></p>
 
 <p><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a>, a 3D transit planning sandbox.</em></p>
