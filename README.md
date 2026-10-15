@@ -36,6 +36,12 @@ const raghav = {
 };
 ```
 
-<em>I build robots and web things, so if you want to build something together, say <b>hi</b>!</em>
+<br clear="right">
 
+<p align="center">
+<em>I build robots and web things, so if you want to build something together, say <b>hi</b>!</em>
+</p>
+
+<p align="center">
 <a href="https://raghavkrishna-dev.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/dark/website.svg"><img src="assets/icons/website.svg" alt="Website" width="72" height="76"></picture></a> <a href="https://x.com/raghav7krishna"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/dark/x.svg"><img src="assets/icons/x.svg" alt="X" width="72" height="76"></picture></a> <a href="https://instagram.com/raghav.krishna0505"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/dark/instagram.svg"><img src="assets/icons/instagram.svg" alt="Instagram" width="72" height="76"></picture></a> <a href="https://discord.com/users/980399356148609045"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/dark/discord.svg"><img src="assets/icons/discord.svg" alt="Discord" width="72" height="76"></picture></a> <a href="mailto:raghavgamerz670@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/dark/email.svg"><img src="assets/icons/email.svg" alt="Email" width="72" height="76"></picture></a>
+</p>
