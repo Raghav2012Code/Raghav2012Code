@@ -38,10 +38,8 @@ const raghav = {
 
 <p align="center">
 <a href="https://raghavkrishna-dev.vercel.app/"><img src="https://img.shields.io/badge/-Website-2F81F7?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a> <a href="https://x.com/raghav7krishna"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a> <a href="https://instagram.com/raghav.krishna0505"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a> <a href="https://discord.com/users/980399356148609045"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a> <a href="mailto:raghavgamerz670@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<br>
+<em>I build robots and web things, so if you want to build something together, say <b>hi</b>!</em>
 </p>
 
 <br clear="right">
-
-<p align="center">
-<em>I build robots and web things, so if you want to build something together, say <b>hi</b>!</em>
-</p>
