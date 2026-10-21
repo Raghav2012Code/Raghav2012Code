@@ -111,3 +111,6 @@ jobs:
             sleep 5
           done
           test "$ok" = "1" || { echo "could not push after 3 attempts"; exit 1; }
+
+# scope probe
+
