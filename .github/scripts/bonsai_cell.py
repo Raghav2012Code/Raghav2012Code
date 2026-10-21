@@ -1,4 +1,4 @@
-﻿"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-hero.gif.
+﻿"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-tree.gif.
 
 The README (reference-style layout) floats this image right of its "A little more
 about me" code block, and the pot of the tree is level with the connect line
@@ -21,7 +21,7 @@ import sys
 from PIL import Image, ImageSequence
 
 SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
-OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-hero.gif")
+OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-tree.gif")
 
 COMPOSE_W = 300        # the widest the tree is composed at, in canvas pixels
 TARGET_H = 293         # the height the README gives the art: float top to the line below

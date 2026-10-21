@@ -19,7 +19,7 @@
 
 <picture>
   <source media="(max-width: 1400px)" srcset="output/spacer.png">
-  <img align="right" src="output/bonsai-hero.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+  <img align="right" src="output/bonsai-tree.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
 </picture>
 
 ### A little more about me...
