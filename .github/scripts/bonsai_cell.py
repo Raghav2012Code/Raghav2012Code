@@ -28,7 +28,7 @@ SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
 
 SCALE = 2
-W, H = 140 * SCALE, 174 * SCALE     # hero canvas, 2x the 140x174 layout size
+W, H = 156 * SCALE, 198 * SCALE     # hero canvas, 2x the 156x198 layout size; fits a 3x tree up to ~98x126
 SIDE, BOTTOM = 4 * SCALE, 6 * SCALE # transparent margins; the tree is bottom-anchored on the canvas
 BOX_W, BOX_H = W - 2 * SIDE, H - BOTTOM - 3 * SCALE   # 3px of headroom keeps the crown off the top edge
 PAPER = (255, 255, 255)
