@@ -70,14 +70,14 @@ jobs:
           echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
 
       - name: Compose the README bonsai art
-        # the README floats the tree beside its about section (output/bonsai-cell.gif).
+        # the README floats the tree beside its about section (output/bonsai-hero.gif).
         # Non-blocking: if this fails, today's tree is still committed and the art keeps
         # yesterday's tree rather than losing the whole re-grow.
         continue-on-error: true
         run: |
           # apt, not pip: ubuntu-24.04 runners refuse system-wide pip installs (PEP 668)
           sudo apt-get install -y -qq python3-pil
-          python3 .github/scripts/bonsai_cell.py output/bonsai.gif output/bonsai-cell.gif
+          python3 .github/scripts/bonsai_cell.py output/bonsai.gif output/bonsai-hero.gif
 
       - name: Summarise
         env:
