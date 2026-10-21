@@ -1,4 +1,4 @@
-"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-cell.gif.
+﻿"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-hero.gif.
 
 The README (reference-style layout) floats this image right of its "A little
 more about me" code block, where it stands in for the pixel-art coder gif of the
@@ -25,7 +25,7 @@ import sys
 from PIL import Image, ImageSequence
 
 SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
-OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
+OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-hero.gif")
 
 SCALE = 2
 W, H = 156 * SCALE, 198 * SCALE     # hero canvas, 2x the 156x198 layout size; fits a 3x tree up to ~98x126

@@ -1,4 +1,4 @@
-<h2>Hey there! I'm Raghav, welcome to my corner of GitHub</h2>
+﻿<h2>Hey there! I'm Raghav, welcome to my corner of GitHub</h2>
 <p><em>
   <b>Robotics team lead at my school</b>
   <br>
@@ -19,7 +19,7 @@
 
 <picture>
   <source media="(max-width: 1400px)" srcset="output/spacer.png">
-  <img align="right" src="output/bonsai-cell.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
+  <img align="right" src="output/bonsai-hero.gif" alt="Pixel-art bonsai grown from my commit history, regrown every day">
 </picture>
 
 ### A little more about me...
