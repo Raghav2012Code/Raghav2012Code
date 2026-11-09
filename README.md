@@ -1,17 +1,11 @@
 ﻿<h2>Hey there! I'm Raghav, welcome to my corner of GitHub</h2>
-<p><em>
-  <b>Robotics team lead at my school</b>
-  <br>
-  <b>Doing Class 9 in Chennai</b>
-  <br>
-  Won RIRC 2026 and PEC Hacks 4.0
-  <br>
-  Top 5 at ZRC Technoxian 2026 with CRASH
-  <br>
-  Semifinalist at RFGYC 2026
-</em></p>
+<p>Robotics team lead · Class 9 · Chennai</p>
 
-<p><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a>, a 3D transit planning sandbox.</em></p>
+<p>
+<img src="https://img.shields.io/badge/RIRC-2026_winner-30363d?style=flat&labelColor=6e7781" alt="RIRC 2026 winner"> <img src="https://img.shields.io/badge/PEC_Hacks-4.0_winner-30363d?style=flat&labelColor=6e7781" alt="PEC Hacks 4.0 winner"> <img src="https://img.shields.io/badge/ZRC_Technoxian-Top_5_2026-30363d?style=flat&labelColor=6e7781" alt="Top 5 ZRC Technoxian 2026"> <img src="https://img.shields.io/badge/RFGYC-2026_semifinalist-30363d?style=flat&labelColor=6e7781" alt="RFGYC 2026 semifinalist">
+</p>
+
+<p><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a> — a 3D transit planning sandbox.</em></p>
 
 ---
 
