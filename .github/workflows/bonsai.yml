@@ -70,7 +70,7 @@ jobs:
           echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
 
       - name: Compose the README bonsai art
-        # the README floats the tree beside its contact icons (output/bonsai-tree.gif).
+        # compose the bonsai art (output/bonsai-tree.gif).
         # Non-blocking: if this fails, today's tree is still committed and the art keeps
         # yesterday's tree rather than losing the whole re-grow.
         continue-on-error: true
