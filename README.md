@@ -1,11 +1,12 @@
 ﻿<h2>Hey there! I'm Raghav, welcome to my corner of GitHub</h2>
-<p>Robotics team lead · Class 9 · Chennai</p>
+<p align="center">Robotics team lead · Class 9 · Chennai</p>
 
-<p>
-<img src="https://img.shields.io/badge/RIRC-2026_winner-30363d?style=flat&labelColor=6e7781" alt="RIRC 2026 winner"> <img src="https://img.shields.io/badge/PEC_Hacks-4.0_winner-30363d?style=flat&labelColor=6e7781" alt="PEC Hacks 4.0 winner"> <img src="https://img.shields.io/badge/ZRC_Technoxian-Top_5_2026-30363d?style=flat&labelColor=6e7781" alt="Top 5 ZRC Technoxian 2026"> <img src="https://img.shields.io/badge/RFGYC-2026_semifinalist-30363d?style=flat&labelColor=6e7781" alt="RFGYC 2026 semifinalist">
+<p align="center">
+<img src="https://img.shields.io/badge/RIRC-2026_winner-30363d?style=flat&labelColor=6e7781" alt="RIRC 2026 winner"> <img src="https://img.shields.io/badge/ZRC_Technoxian-Top_5_2026-30363d?style=flat&labelColor=6e7781" alt="Top 5 ZRC Technoxian 2026"><br>
+<img src="https://img.shields.io/badge/PEC_Hacks-4.0_winner-30363d?style=flat&labelColor=6e7781" alt="PEC Hacks 4.0 winner"> <img src="https://img.shields.io/badge/RFGYC-2026_semifinalist-30363d?style=flat&labelColor=6e7781" alt="RFGYC 2026 semifinalist">
 </p>
 
-<p><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a> — a 3D transit planning sandbox.</em></p>
+<p align="center"><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a> — a 3D transit planning sandbox.</em></p>
 
 ---
 
