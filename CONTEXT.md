@@ -9,7 +9,7 @@ The markdown document in this repository that GitHub renders on the profile page
 _Avoid_: bio, profile page
 
 **Bonsai**:
-The pixel-art tree grown from the commit history, rebuilt every day and floated beside the about section.
+The pixel-art tree grown from the commit history, rebuilt every day and floated beside the contact icons.
 _Avoid_: tree, plant
 
 **Bonsai pipeline**:

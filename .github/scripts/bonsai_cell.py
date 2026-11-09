@@ -1,11 +1,10 @@
 ﻿"""Compose output/bonsai.gif into the README's bonsai art: output/bonsai-tree.gif.
 
-The README (reference-style layout) floats this image right of its "A little more
-about me" code block, and the pot of the tree is level with the connect line
-under that block. The tree is composed at the largest whole-number scale that
-fits the canvas, then scaled to the height the line leaves, so the pot lands on
-the text instead of hanging below it. A tree that composes smaller than that is
-never scaled up, so the art never goes soft.
+The README floats this image right of the contact icons at the end of the
+profile. The tree is composed at the largest whole-number scale that fits the
+canvas, then capped at TARGET_H so the art cannot stretch the profile card past
+what the icons need. A tree that composes smaller than that is never scaled up,
+so the art never goes soft.
 
 The canvas is transparent rather than sheet-white, so the art reads equally in
 GitHub light and dark modes. Transparency is decided by the tree's own alpha
@@ -24,7 +23,7 @@ SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-tree.gif")
 
 COMPOSE_W = 300        # the widest the tree is composed at, in canvas pixels
-TARGET_H = 293         # the height the README gives the art: float top to the line below
+TARGET_H = 293         # tallest the art may be, so the float cannot outgrow the contact row
 SIDE, BOTTOM = 8, 4    # transparent margins around the tree, in canvas pixels
 PAPER = (255, 255, 255)
 TRANSPARENT_INDEX = 255
