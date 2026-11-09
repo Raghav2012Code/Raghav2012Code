@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/PEC_Hacks-4.0_winner-30363d?style=flat&labelColor=6e7781" alt="PEC Hacks 4.0 winner"> <img src="https://img.shields.io/badge/RFGYC-2026_semifinalist-30363d?style=flat&labelColor=6e7781" alt="RFGYC 2026 semifinalist">
 </p>
 
-<p align="center"><em>Currently building <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a> — a 3D transit planning sandbox.</em></p>
+<p align="center">🟢 <b>Building</b> <a href="https://github.com/Raghav2012Code/transit-forge">TransitForge</a> — a 3D transit planning sandbox</p>
 
 ---
 
