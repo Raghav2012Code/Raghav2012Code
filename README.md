@@ -45,7 +45,7 @@
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Raghav2012Code&show_icons=true&hide=stars&hide_border=true&disable_animations=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api?username=Raghav2012Code&show_icons=true&hide=stars&hide_border=true&disable_animations=true&theme=default" height="165" alt="Raghav's GitHub stats"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql,cmake,shell&disable_animations=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql,cmake,shell&disable_animations=true&theme=default" height="165" alt="Raghav's most used languages"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql%2Ccmake%2Cshell&disable_animations=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql%2Ccmake%2Cshell&disable_animations=true&theme=default" height="165" alt="Raghav's most used languages"/></picture>
 </p>
 
 ---
