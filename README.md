@@ -10,20 +10,6 @@
 
 ---
 
-<h3 align="center">Featured projects</h3>
-
-<div align="center">
-
-| Project | What it does |
-|:--|:--|
-| [**Door&nbsp;Hinge Safety&nbsp;System**](https://raghavkrishna-dev.vercel.app/project#door-hinge-safety-system) | ESP32 sensor system that helps prevent finger injuries at door hinges<br><sub>🥇 Overall Winner, Gold · RIRC 2026, Malaysia</sub> |
-| [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H)<br><sub><a href="https://crash-chennai.vercel.app">live demo</a></sub> | Predicts where road accidents may occur in Chennai<br><sub>🏁 Qualified for NRC Technoxian</sub> |
-| [**Vault**](https://github.com/abivan100-stack/vault) | Vaccine cold-chain monitor with tamper-evident records<br><sub>🏅 Consolation prize · PEC Hacks 4.0</sub> |
-| [**Volt**](https://github.com/abivan100-stack/volt-ledger)<br><sub><a href="https://volt-ledger.vercel.app">live demo</a></sub> | Peer-to-peer rooftop solar trading ledger<br><sub>Shark Tank Challenge 2026</sub> |
-| [**EPL&nbsp;Predictor**](https://github.com/Raghav2012Code/epl-predictor)<br><sub><a href="https://epl-predictor-beta-roan.vercel.app">live demo</a></sub> | Premier League match predictions from an XGBoost, Poisson and Elo ensemble<br><sub>Work in progress</sub> |
-
-</div>
-
 <h3 align="center">Stack</h3>
 
 <p align="center">
@@ -40,6 +26,20 @@
   &nbsp;<a href="https://www.arduino.cc/" title="Arduino and ESP32"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=arduino&theme=light"><img src="https://skillicons.dev/icons?i=arduino&theme=dark" width="40" height="40" alt="Arduino and ESP32" title="Arduino and ESP32"/></picture></a>
   &nbsp;<a href="https://git-scm.com/" title="Git"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git&theme=light"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="40" height="40" alt="Git" title="Git"/></picture></a>
 </p>
+
+<h3 align="center">Featured projects</h3>
+
+<div align="center">
+
+| Project | What it does |
+|:--|:--|
+| [**Door&nbsp;Hinge Safety&nbsp;System**](https://raghavkrishna-dev.vercel.app/project#door-hinge-safety-system) | ESP32 sensor system that helps prevent finger injuries at door hinges<br><sub>🥇 Overall Winner, Gold · RIRC 2026, Malaysia</sub> |
+| [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H)<br><sub><a href="https://crash-chennai.vercel.app">live demo</a></sub> | Predicts where road accidents may occur in Chennai<br><sub>🏁 Qualified for NRC Technoxian</sub> |
+| [**Vault**](https://github.com/abivan100-stack/vault) | Vaccine cold-chain monitor with tamper-evident records<br><sub>🏅 Consolation prize · PEC Hacks 4.0</sub> |
+| [**Volt**](https://github.com/abivan100-stack/volt-ledger)<br><sub><a href="https://volt-ledger.vercel.app">live demo</a></sub> | Peer-to-peer rooftop solar trading ledger<br><sub>Shark Tank Challenge 2026</sub> |
+| [**EPL&nbsp;Predictor**](https://github.com/Raghav2012Code/epl-predictor)<br><sub><a href="https://epl-predictor-beta-roan.vercel.app">live demo</a></sub> | Premier League match predictions from an XGBoost, Poisson and Elo ensemble<br><sub>Work in progress</sub> |
+
+</div>
 
 <h3 align="center">GitHub stats</h3>
 
