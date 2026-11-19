@@ -6,7 +6,7 @@
 <a href="https://raghavkrishna-dev.vercel.app/project#vaccine-cold-chain-ledger"><img src="https://img.shields.io/badge/PEC_Hacks_4.0-consolation_prize-30363d?style=flat&labelColor=6e7781" alt="PEC Hacks 4.0 consolation prize"></a> <img src="https://img.shields.io/badge/RFGYC-2026_semifinalist-30363d?style=flat&labelColor=6e7781" alt="RFGYC 2026 semifinalist">
 </p>
 
-<p align="center">🟢 <b>Building</b> <a href="https://github.com/abivan100-stack/pitwatch-3d">PitWatch 3D</a> — a 3D open-pit mine monitoring and compliance dashboard · <a href="https://pitwatch-3d.vercel.app">live demo</a></p>
+<p align="center">🟢 <b>Building</b> <a href="https://github.com/abivan100-stack/pitwatch-3d">PitWatch 3D</a>: a 3D open-pit mine monitoring and compliance dashboard · <a href="https://pitwatch-3d.vercel.app">live demo</a></p>
 
 ---
 
