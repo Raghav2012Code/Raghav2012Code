@@ -16,13 +16,37 @@
 
 | Project | What it does |
 |:--|:--|
-| [**Door&nbsp;Hinge Safety&nbsp;System**](https://raghavkrishna-dev.vercel.app/project#door-hinge-safety-system) | ESP32 system that helps prevent finger injuries at door hinges, using laser and IR sensors with a servo and solenoid. Overall Winner, Gold at Robowunder International Robotics Championship 2026, Malaysia |
-| [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H)<br><sub><a href="https://crash-chennai.vercel.app">live demo</a></sub> | Predicts where road accidents may occur in Chennai from public accident data. Qualified for NRC Technoxian |
-| [**Vault**](https://github.com/abivan100-stack/vault) | Vaccine cold-chain ledger with tamper-evident, hashed records. Consolation prize at PEC Hacks 4.0 |
-| [**Volt**](https://github.com/abivan100-stack/volt-ledger)<br><sub><a href="https://volt-ledger.vercel.app">live demo</a></sub> | Peer-to-peer rooftop solar trading ledger. Shark Tank Challenge 2026 |
-| [**EPL&nbsp;Predictor**](https://github.com/Raghav2012Code/epl-predictor)<br><sub><a href="https://epl-predictor-beta-roan.vercel.app">live demo</a></sub> | Premier League match predictions from an XGBoost, Poisson and Elo ensemble |
+| [**Door&nbsp;Hinge Safety&nbsp;System**](https://raghavkrishna-dev.vercel.app/project#door-hinge-safety-system) | ESP32 sensor system that helps prevent finger injuries at door hinges<br><sub>🥇 Overall Winner, Gold · RIRC 2026, Malaysia</sub> |
+| [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H)<br><sub><a href="https://crash-chennai.vercel.app">live demo</a></sub> | Predicts where road accidents may occur in Chennai<br><sub>🏁 Qualified for NRC Technoxian</sub> |
+| [**Vault**](https://github.com/abivan100-stack/vault) | Vaccine cold-chain monitor with tamper-evident records<br><sub>🏅 Consolation prize · PEC Hacks 4.0</sub> |
+| [**Volt**](https://github.com/abivan100-stack/volt-ledger)<br><sub><a href="https://volt-ledger.vercel.app">live demo</a></sub> | Peer-to-peer rooftop solar trading ledger<br><sub>Shark Tank Challenge 2026</sub> |
+| [**EPL&nbsp;Predictor**](https://github.com/Raghav2012Code/epl-predictor)<br><sub><a href="https://epl-predictor-beta-roan.vercel.app">live demo</a></sub> | Premier League match predictions from an XGBoost, Poisson and Elo ensemble<br><sub>Work in progress</sub> |
 
 </div>
+
+<h3 align="center">Stack</h3>
+
+<p align="center">
+  <a href="https://www.typescriptlang.org/" title="TypeScript"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts&theme=light"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="40" height="40" alt="TypeScript" title="TypeScript"/></picture></a>
+  &nbsp;<a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js&theme=light"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="40" height="40" alt="JavaScript" title="JavaScript"/></picture></a>
+  &nbsp;<a href="https://react.dev/" title="React"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react&theme=light"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="40" height="40" alt="React" title="React"/></picture></a>
+  &nbsp;<a href="https://nextjs.org/" title="Next.js"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs&theme=light"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40" height="40" alt="Next.js" title="Next.js"/></picture></a>
+  &nbsp;<a href="https://tailwindcss.com/" title="Tailwind CSS"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=tailwind&theme=light"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="40" height="40" alt="Tailwind CSS" title="Tailwind CSS"/></picture></a>
+  &nbsp;<a href="https://supabase.com/" title="Supabase"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=supabase&theme=light"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="40" height="40" alt="Supabase" title="Supabase"/></picture></a>
+  &nbsp;<a href="https://www.mongodb.com/" title="MongoDB"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mongodb&theme=light"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="40" height="40" alt="MongoDB" title="MongoDB"/></picture></a>
+  <br>
+  <a href="https://www.python.org/" title="Python"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py&theme=light"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="40" height="40" alt="Python" title="Python"/></picture></a>
+  &nbsp;<a href="https://isocpp.org/" title="C++"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cpp&theme=light"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="40" height="40" alt="C++" title="C++"/></picture></a>
+  &nbsp;<a href="https://www.arduino.cc/" title="Arduino and ESP32"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=arduino&theme=light"><img src="https://skillicons.dev/icons?i=arduino&theme=dark" width="40" height="40" alt="Arduino and ESP32" title="Arduino and ESP32"/></picture></a>
+  &nbsp;<a href="https://git-scm.com/" title="Git"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git&theme=light"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="40" height="40" alt="Git" title="Git"/></picture></a>
+</p>
+
+<h3 align="center">GitHub stats</h3>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Raghav2012Code&show_icons=true&hide_border=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api?username=Raghav2012Code&show_icons=true&hide_border=true&theme=default" height="165" alt="Raghav's GitHub stats"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql,cmake,shell&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav2012Code&layout=compact&hide_border=true&langs_count=6&hide=plpgsql,cmake,shell&theme=default" height="165" alt="Raghav's most used languages"/></picture>
+</p>
 
 ---
 
